@@ -1,5 +1,5 @@
 import 'package:checkout_payment/features/checkout/presentation/views/card/my_card_view.dart';
-import 'package:checkout_payment/features/checkout/presentation/views/thank_you/thank_you_view.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {

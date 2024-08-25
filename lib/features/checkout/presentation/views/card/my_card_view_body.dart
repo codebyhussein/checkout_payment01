@@ -1,10 +1,7 @@
 import 'package:checkout_payment/features/checkout/presentation/views/card/widgets/show_bottom_sheet.dart';
-import 'package:checkout_payment/features/checkout/presentation/views/payment/payment_detalis.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/card/widgets/card_info.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/card/widgets/total_card_price.dart';
 import 'package:checkout_payment/core/utils/widgets/custom_button.dart';
-import 'package:checkout_payment/features/checkout/presentation/views/payment/widgets/payment_method_item.dart';
-import 'package:checkout_payment/features/checkout/presentation/views/payment/widgets/payment_method_listview.dart';
 import 'package:flutter/material.dart';
 
 class MyCardViewBody extends StatelessWidget {
