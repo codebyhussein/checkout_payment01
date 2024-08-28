@@ -1,4 +1,4 @@
-import 'package:checkout_payment/core/utils/widgets/custom_button.dart';
+import 'package:checkout_payment/features/checkout/presentation/views/card/widgets/custom_consumer_button.dart';
 import 'package:flutter/material.dart';
 
 import '../../payment/widgets/payment_method_listview.dart';
@@ -16,17 +16,14 @@ class ShowBottomSheet extends StatelessWidget {
           borderRadius: BorderRadius.only(
               topRight: Radius.circular(20), topLeft: Radius.circular(20))),
       height: 250,
-      child: Column(
+      child: const Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const SizedBox(
+          SizedBox(
             height: 20,
           ),
-          const PaymentMethodListview(),
-          Padding(
-            padding: const EdgeInsets.all(50),
-            child: CustomButton(text: 'Continue'),
-          )
+          PaymentMethodListview(),
+          CustomConsumerButton()
         ],
       ),
     );
