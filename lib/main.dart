@@ -20,10 +20,3 @@ class MyCardApp extends StatelessWidget {
     );
   }
 }
-// Payment Intent"odel create payment intent(amount
-// currency , customerld)
-// keySecret createEphemerolKey(stripeVers ton, customerld)
-// tPaymentSheet (merchantDispLayNome
-// intentCLientSecret
-// , ephemeraLKeySec
-// presentPaymentSheet()
